@@ -1,0 +1,756 @@
+2026-11-15 23:13:57.149 IST [21] LOG:  starting PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-11-15 23:13:57.179 IST [21] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2026-11-15 23:13:57.186 IST [21] LOG:  listening on IPv6 address "::", port 5433
+2026-11-15 23:13:57.289 IST [21] LOG:  listening on Unix socket "/home/aantonio/NexCart/pgsocket/.s.PGSQL.5433"
+2026-11-15 23:13:57.360 IST [21] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2026-11-15 23:13:57.411 IST [24] LOG:  database system was shut down at 2026-11-15 23:13:39 IST
+2026-11-15 23:13:57.485 IST [21] LOG:  database system is ready to accept connections
+2026-11-15 23:14:48.506 IST [13585] LOG:  starting PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-11-15 23:14:48.507 IST [13585] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2026-11-15 23:14:48.507 IST [13585] LOG:  listening on IPv6 address "::", port 5433
+2026-11-15 23:14:48.572 IST [13585] LOG:  listening on Unix socket "/home/aantonio/NexCart/pgsocket/.s.PGSQL.5433"
+2026-11-15 23:14:48.655 IST [13585] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2026-11-15 23:14:48.704 IST [13589] LOG:  database system was interrupted; last known up at 2026-11-15 23:13:57 IST
+2026-11-15 23:14:49.042 IST [13589] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-11-15 23:14:49.100 IST [13589] LOG:  invalid record length at 0/14F4208: expected at least 24, got 0
+2026-11-15 23:14:49.101 IST [13589] LOG:  redo is not required
+2026-11-15 23:14:49.148 IST [13587] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-11-15 23:14:49.309 IST [13587] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.037 s, sync=0.021 s, total=0.191 s; sync files=2, longest=0.011 s, average=0.011 s; distance=0 kB, estimate=0 kB; lsn=0/14F4208, redo lsn=0/14F4208
+2026-11-15 23:14:49.359 IST [13585] LOG:  database system is ready to accept connections
+2026-11-15 23:19:49.410 IST [13587] LOG:  checkpoint starting: time
+2026-11-15 23:21:22.526 IST [13587] LOG:  checkpoint complete: wrote 924 buffers (5.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=92.787 s, sync=0.202 s, total=93.117 s; sync files=300, longest=0.065 s, average=0.001 s; distance=4276 kB, estimate=4276 kB; lsn=0/19212B0, redo lsn=0/1921278
+2026-11-15 23:24:49.691 IST [13587] LOG:  checkpoint starting: time
+2026-11-15 23:25:11.406 IST [13587] LOG:  checkpoint complete: wrote 208 buffers (1.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=21.278 s, sync=0.123 s, total=21.725 s; sync files=194, longest=0.020 s, average=0.001 s; distance=1020 kB, estimate=3950 kB; lsn=0/1A202F0, redo lsn=0/1A202B8
+2026-11-15 23:32:45.899 IST [21] FATAL:  pre-existing shared memory block (key 7775795, ID 32775) is still in use
+2026-11-15 23:32:45.899 IST [21] HINT:  Terminate any old server processes associated with data directory "/home/aantonio/NexCart/pgdata".
+2026-11-15 23:33:43.815 IST [21] LOG:  starting PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-11-15 23:33:43.827 IST [21] LOG:  could not bind IPv4 address "0.0.0.0": Address already in use
+2026-11-15 23:33:43.827 IST [21] HINT:  Is another postmaster already running on port 5433? If not, wait a few seconds and retry.
+2026-11-15 23:33:43.828 IST [21] LOG:  could not bind IPv6 address "::": Address already in use
+2026-11-15 23:33:43.828 IST [21] HINT:  Is another postmaster already running on port 5433? If not, wait a few seconds and retry.
+2026-11-15 23:33:43.829 IST [21] WARNING:  could not create listen socket for "*"
+2026-11-15 23:33:43.829 IST [21] FATAL:  could not create any TCP/IP sockets
+2026-11-15 23:33:43.838 IST [21] LOG:  database system is shut down
+2026-11-15 23:33:50.037 IST [13585] LOG:  could not open file "postmaster.pid": No such file or directory
+2026-11-15 23:33:50.037 IST [13585] LOG:  performing immediate shutdown because data directory lock file is invalid
+2026-11-15 23:33:50.037 IST [13585] LOG:  received immediate shutdown request
+2026-11-15 23:33:50.038 IST [13585] LOG:  could not open file "postmaster.pid": No such file or directory
+2026-11-15 23:33:50.054 IST [13585] LOG:  shmctl(32775, 0, 0) failed: Invalid argument
+2026-11-15 23:33:50.079 IST [13585] LOG:  database system is shut down
+2026-11-15 23:34:14.370 IST [21] LOG:  starting PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-11-15 23:34:14.372 IST [21] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2026-11-15 23:34:14.375 IST [21] LOG:  listening on IPv6 address "::", port 5433
+2026-11-15 23:34:14.446 IST [21] LOG:  listening on Unix socket "/home/aantonio/NexCart/pgsocket/.s.PGSQL.5433"
+2026-11-15 23:34:14.511 IST [21] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2026-11-15 23:34:14.577 IST [24] LOG:  database system was interrupted; last known up at 2026-11-15 23:25:11 IST
+2026-11-15 23:34:15.896 IST [24] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-11-15 23:34:15.981 IST [24] LOG:  redo starts at 0/1A202B8
+2026-11-15 23:34:15.981 IST [24] LOG:  invalid record length at 0/1A203A0: expected at least 24, got 0
+2026-11-15 23:34:15.981 IST [24] LOG:  redo done at 0/1A20368 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.01 s
+2026-11-15 23:34:16.137 IST [22] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-11-15 23:34:16.322 IST [22] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.057 s, sync=0.021 s, total=0.238 s; sync files=2, longest=0.011 s, average=0.011 s; distance=0 kB, estimate=0 kB; lsn=0/1A203A0, redo lsn=0/1A203A0
+2026-11-15 23:34:16.367 IST [21] LOG:  database system is ready to accept connections
+2026-11-16 10:24:40.141 IST [5] LOG:  starting PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-11-16 10:24:40.214 IST [5] LOG:  could not create IPv6 socket for address "::": Operation not permitted
+2026-11-16 10:24:40.214 IST [5] LOG:  could not create IPv4 socket for address "0.0.0.0": Operation not permitted
+2026-11-16 10:24:40.214 IST [5] WARNING:  could not create listen socket for "*"
+2026-11-16 10:24:40.259 IST [5] FATAL:  could not create any TCP/IP sockets
+2026-11-16 10:24:40.267 IST [5] LOG:  database system is shut down
+2026-11-16 10:24:52.498 IST [12099] LOG:  starting PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-11-16 10:24:52.499 IST [12099] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2026-11-16 10:24:52.499 IST [12099] LOG:  listening on IPv6 address "::", port 5433
+2026-11-16 10:24:52.606 IST [12099] LOG:  listening on Unix socket "/home/aantonio/NexCart/pgsocket/.s.PGSQL.5433"
+2026-11-16 10:24:52.716 IST [12099] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2026-11-16 10:24:52.798 IST [12102] LOG:  database system was interrupted; last known up at 2026-11-15 23:40:06 IST
+2026-11-16 10:24:53.212 IST [12102] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-11-16 10:24:53.295 IST [12102] LOG:  redo starts at 0/1A33890
+2026-11-16 10:24:53.295 IST [12102] LOG:  invalid record length at 0/1A33978: expected at least 24, got 0
+2026-11-16 10:24:53.295 IST [12102] LOG:  redo done at 0/1A33940 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-11-16 10:24:53.375 IST [12100] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-11-16 10:24:53.568 IST [12100] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.036 s, sync=0.022 s, total=0.244 s; sync files=2, longest=0.013 s, average=0.011 s; distance=0 kB, estimate=0 kB; lsn=0/1A33978, redo lsn=0/1A33978
+2026-11-16 10:24:53.610 IST [12099] LOG:  database system is ready to accept connections
+2026-11-16 10:25:24.099 IST [12347] ERROR:  column o.assigned_rider does not exist at character 106
+2026-11-16 10:25:24.099 IST [12347] STATEMENT:  UPDATE orders AS o SET rider_id = u.id FROM users AS u WHERE o.rider_id IS NULL AND u.role = 'rider' AND o.assigned_rider IS NOT NULL AND lower(o.assigned_rider) LIKE '%' || lower(split_part(u.full_name, '•', 1)) || '%'
+2026-11-16 10:29:53.668 IST [12100] LOG:  checkpoint starting: time
+2026-11-16 10:29:57.775 IST [12100] LOG:  checkpoint complete: wrote 36 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.602 s, sync=0.287 s, total=4.108 s; sync files=25, longest=0.169 s, average=0.012 s; distance=138 kB, estimate=138 kB; lsn=0/1A564E0, redo lsn=0/1A564A8
+2026-11-16 10:39:53.975 IST [12100] LOG:  checkpoint starting: time
+2026-11-16 10:39:55.250 IST [12100] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.030 s, sync=0.047 s, total=1.275 s; sync files=11, longest=0.038 s, average=0.005 s; distance=2 kB, estimate=125 kB; lsn=0/1A57020, redo lsn=0/1A56FE8
+2026-11-16 10:44:53.349 IST [12100] LOG:  checkpoint starting: time
+2026-11-16 10:44:55.833 IST [12100] LOG:  checkpoint complete: wrote 16 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.542 s, sync=0.236 s, total=2.484 s; sync files=11, longest=0.068 s, average=0.022 s; distance=2 kB, estimate=112 kB; lsn=0/1A57A78, redo lsn=0/1A57A40
+2026-11-16 11:59:55.307 IST [12100] LOG:  checkpoint starting: time
+2026-11-16 11:59:57.600 IST [12100] LOG:  checkpoint complete: wrote 16 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.681 s, sync=0.132 s, total=2.312 s; sync files=15, longest=0.121 s, average=0.009 s; distance=73 kB, estimate=108 kB; lsn=0/1A69EF8, redo lsn=0/1A69EC0
+2026-11-16 12:04:55.700 IST [12100] LOG:  checkpoint starting: time
+2026-11-16 12:05:02.173 IST [12100] LOG:  checkpoint complete: wrote 63 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.273 s, sync=0.090 s, total=6.473 s; sync files=44, longest=0.044 s, average=0.003 s; distance=10 kB, estimate=99 kB; lsn=0/1A6CAB0, redo lsn=0/1A6CA78
+2026-11-16 12:09:55.273 IST [12100] LOG:  checkpoint starting: time
+2026-11-16 12:10:03.960 IST [12100] LOG:  checkpoint complete: wrote 71 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=7.414 s, sync=0.056 s, total=8.687 s; sync files=47, longest=0.024 s, average=0.002 s; distance=11 kB, estimate=90 kB; lsn=0/1A6F760, redo lsn=0/1A6F728
+2026-11-16 12:21:10.233 IST [63801] FATAL:  terminating connection due to administrator command
+2026-11-16 12:21:10.233 IST [63621] FATAL:  terminating connection due to administrator command
+2026-11-16 12:21:10.233 IST [63800] FATAL:  terminating connection due to administrator command
+2026-11-16 12:21:10.233 IST [63799] FATAL:  terminating connection due to administrator command
+2026-11-16 12:21:10.933 IST [63800] LOG:  could not send data to client: Broken pipe
+2026-11-16 12:21:10.933 IST [63799] LOG:  could not send data to client: Broken pipe
+2026-11-16 12:21:10.233 IST [63883] FATAL:  terminating connection due to administrator command
+2026-11-16 12:21:10.234 IST [12099] LOG:  received smart shutdown request
+2026-11-16 12:21:10.934 IST [63883] LOG:  could not send data to client: Broken pipe
+2026-11-16 12:21:10.935 IST [63801] LOG:  could not send data to client: Broken pipe
+2026-11-16 12:21:10.937 IST [63621] LOG:  could not send data to client: Broken pipe
+2026-11-16 12:42:05.245 IST [5] LOG:  starting PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-11-16 12:42:05.245 IST [5] LOG:  could not create IPv6 socket for address "::": Operation not permitted
+2026-11-16 12:42:05.245 IST [5] LOG:  could not create IPv4 socket for address "0.0.0.0": Operation not permitted
+2026-11-16 12:42:05.245 IST [5] WARNING:  could not create listen socket for "*"
+2026-11-16 12:42:05.245 IST [5] FATAL:  could not create any TCP/IP sockets
+2026-11-16 12:42:05.248 IST [5] LOG:  database system is shut down
+2026-11-16 12:44:15.346 IST [15017] LOG:  starting PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-11-16 12:44:15.347 IST [15017] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2026-11-16 12:44:15.347 IST [15017] LOG:  listening on IPv6 address "::", port 5433
+2026-11-16 12:44:15.514 IST [15017] LOG:  listening on Unix socket "/home/aantonio/NexCart/pgsocket/.s.PGSQL.5433"
+2026-11-16 12:44:15.657 IST [15017] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2026-11-16 12:44:15.719 IST [15020] LOG:  database system was interrupted; last known up at 2026-11-16 12:10:03 IST
+2026-11-16 12:44:16.056 IST [15020] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-11-16 12:44:16.176 IST [15020] LOG:  redo starts at 0/1A6F728
+2026-11-16 12:44:16.176 IST [15020] LOG:  invalid record length at 0/1A6F810: expected at least 24, got 0
+2026-11-16 12:44:16.176 IST [15020] LOG:  redo done at 0/1A6F7D8 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-11-16 12:44:16.292 IST [15018] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-11-16 12:44:16.670 IST [15018] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.110 s, sync=0.039 s, total=0.433 s; sync files=2, longest=0.030 s, average=0.020 s; distance=0 kB, estimate=0 kB; lsn=0/1A6F810, redo lsn=0/1A6F810
+2026-11-16 12:44:16.746 IST [15017] LOG:  database system is ready to accept connections
+2026-11-16 12:44:39.026 IST [15144] FATAL:  role "aantonio" does not exist
+2026-11-16 12:49:53.448 IST [17473] ERROR:  column notifications.target_role does not exist at character 94
+2026-11-16 12:49:53.448 IST [17473] STATEMENT:  SELECT notifications.id AS notifications_id, notifications.user_id AS notifications_user_id, notifications.target_role AS notifications_target_role, notifications.title AS notifications_title, notifications.message AS notifications_message, notifications.order_number AS notifications_order_number, notifications.is_read AS notifications_is_read, notifications.created_at AS notifications_created_at, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM notifications LEFT OUTER JOIN users AS users_1 ON users_1.id = notifications.user_id 
+	WHERE notifications.user_id = 6 ORDER BY notifications.created_at DESC 
+	 LIMIT 50
+2026-11-16 12:50:01.388 IST [17470] ERROR:  column notifications.target_role does not exist at character 94
+2026-11-16 12:50:01.388 IST [17470] STATEMENT:  SELECT notifications.id AS notifications_id, notifications.user_id AS notifications_user_id, notifications.target_role AS notifications_target_role, notifications.title AS notifications_title, notifications.message AS notifications_message, notifications.order_number AS notifications_order_number, notifications.is_read AS notifications_is_read, notifications.created_at AS notifications_created_at, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM notifications LEFT OUTER JOIN users AS users_1 ON users_1.id = notifications.user_id 
+	WHERE notifications.user_id = 6 ORDER BY notifications.created_at DESC 
+	 LIMIT 50
+2026-11-16 12:54:16.863 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 12:54:22.690 IST [15018] LOG:  checkpoint complete: wrote 56 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.541 s, sync=0.101 s, total=5.828 s; sync files=47, longest=0.067 s, average=0.003 s; distance=106 kB, estimate=106 kB; lsn=0/1A8A2E8, redo lsn=0/1A8A2B0
+2026-11-16 12:59:16.790 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 12:59:17.231 IST [15018] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.216 s, sync=0.054 s, total=0.441 s; sync files=3, longest=0.039 s, average=0.018 s; distance=1 kB, estimate=96 kB; lsn=0/1A8A9B8, redo lsn=0/1A8A980
+2026-11-16 13:44:17.097 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 13:44:20.652 IST [15018] LOG:  checkpoint complete: wrote 34 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.336 s, sync=0.055 s, total=3.555 s; sync files=34, longest=0.033 s, average=0.002 s; distance=14 kB, estimate=87 kB; lsn=0/1A8E3B0, redo lsn=0/1A8E378
+2026-11-16 13:49:17.752 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 13:49:18.027 IST [15018] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.118 s, sync=0.047 s, total=0.275 s; sync files=2, longest=0.033 s, average=0.024 s; distance=1 kB, estimate=79 kB; lsn=0/1A8EB90, redo lsn=0/1A8EB58
+2026-11-16 13:54:17.121 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 13:54:19.976 IST [15018] LOG:  checkpoint complete: wrote 27 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.631 s, sync=0.078 s, total=2.855 s; sync files=27, longest=0.063 s, average=0.003 s; distance=14 kB, estimate=72 kB; lsn=0/1A92780, redo lsn=0/1A92748
+2026-11-16 13:59:18.076 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 13:59:19.659 IST [15018] LOG:  checkpoint complete: wrote 15 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.423 s, sync=0.062 s, total=1.584 s; sync files=15, longest=0.045 s, average=0.005 s; distance=4 kB, estimate=66 kB; lsn=0/1A939D0, redo lsn=0/1A93998
+2026-11-16 14:04:18.760 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 14:04:22.404 IST [15018] LOG:  checkpoint complete: wrote 35 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.446 s, sync=0.054 s, total=3.644 s; sync files=35, longest=0.039 s, average=0.002 s; distance=25 kB, estimate=62 kB; lsn=0/1A99FF8, redo lsn=0/1A99FC0
+2026-11-16 14:14:18.595 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 14:14:22.244 IST [15018] LOG:  checkpoint complete: wrote 35 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.441 s, sync=0.056 s, total=3.649 s; sync files=35, longest=0.036 s, average=0.002 s; distance=26 kB, estimate=58 kB; lsn=0/1AA0820, redo lsn=0/1AA07E8
+2026-11-16 14:19:18.344 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 14:19:19.126 IST [15018] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.533 s, sync=0.114 s, total=0.782 s; sync files=6, longest=0.102 s, average=0.019 s; distance=31 kB, estimate=55 kB; lsn=0/1AA8818, redo lsn=0/1AA87E0
+2026-11-16 14:20:10.682 IST [70112] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-16 14:20:10.682 IST [70112] STATEMENT:  SELECT orders.id AS orders_id, orders.order_number AS orders_order_number, orders.customer_id AS orders_customer_id, orders.address_id AS orders_address_id, orders.shipping_address AS orders_shipping_address, orders.total_amount AS orders_total_amount, orders.payment_method AS orders_payment_method, orders.status AS orders_status, orders.delivery_otp AS orders_delivery_otp, orders.rider_fee AS orders_rider_fee, orders.delivered_at AS orders_delivered_at, orders.delivery_lat AS orders_delivery_lat, orders.delivery_lng AS orders_delivery_lng, orders.created_at AS orders_created_at, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at, addresses_1.id AS addresses_1_id, addresses_1.user_id AS addresses_1_user_id, addresses_1.label AS addresses_1_label, addresses_1.street AS addresses_1_street, addresses_1.city AS addresses_1_city, addresses_1.state AS addresses_1_state, addresses_1.pincode AS addresses_1_pincode, addresses_1.lat AS addresses_1_lat, addresses_1.lng AS addresses_1_lng, addresses_1.is_default AS addresses_1_is_default, payments_1.id AS payments_1_id, payments_1.order_id AS payments_1_order_id, payments_1.transaction_ref AS payments_1_transaction_ref, payments_1.method AS payments_1_method, payments_1.amount AS payments_1_amount, payments_1.status AS payments_1_status, payments_1.paid_at AS payments_1_paid_at, users_2.id AS users_2_id, users_2.full_name AS users_2_full_name, users_2.email AS users_2_email, users_2.phone AS users_2_phone, users_2.store_bio AS users_2_store_bio, users_2.payout_upi_id AS users_2_payout_upi_id, users_2.hashed_password AS users_2_hashed_password, users_2.role AS users_2_role, users_2.store_name AS users_2_store_name, users_2.is_active AS users_2_is_active, users_2.is_verified AS users_2_is_verified, users_2.created_at AS users_2_created_at, deliveries_1.id AS deliveries_1_id, deliveries_1.order_id AS deliveries_1_order_id, deliveries_1.rider_id AS deliveries_1_rider_id, deliveries_1.pickup_hub AS deliveries_1_pickup_hub, deliveries_1.drop_address AS deliveries_1_drop_address, deliveries_1.rider_fee AS deliveries_1_rider_fee, deliveries_1.status AS deliveries_1_status, deliveries_1.otp_verified AS deliveries_1_otp_verified, deliveries_1.assigned_at AS deliveries_1_assigned_at, deliveries_1.delivered_at AS deliveries_1_delivered_at 
+	FROM orders LEFT OUTER JOIN users AS users_1 ON users_1.id = orders.customer_id LEFT OUTER JOIN addresses AS addresses_1 ON addresses_1.id = orders.address_id LEFT OUTER JOIN payments AS payments_1 ON orders.id = payments_1.order_id LEFT OUTER JOIN deliveries AS deliveries_1 ON orders.id = deliveries_1.order_id LEFT OUTER JOIN users AS users_2 ON users_2.id = deliveries_1.rider_id 
+	WHERE orders.id = 1 AND orders.customer_id = 6 
+	 LIMIT 1 FOR UPDATE
+2026-11-16 14:20:22.386 IST [70113] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-16 14:20:22.386 IST [70113] STATEMENT:  SELECT orders.id AS orders_id, orders.order_number AS orders_order_number, orders.customer_id AS orders_customer_id, orders.address_id AS orders_address_id, orders.shipping_address AS orders_shipping_address, orders.total_amount AS orders_total_amount, orders.payment_method AS orders_payment_method, orders.status AS orders_status, orders.delivery_otp AS orders_delivery_otp, orders.rider_fee AS orders_rider_fee, orders.delivered_at AS orders_delivered_at, orders.delivery_lat AS orders_delivery_lat, orders.delivery_lng AS orders_delivery_lng, orders.created_at AS orders_created_at, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at, addresses_1.id AS addresses_1_id, addresses_1.user_id AS addresses_1_user_id, addresses_1.label AS addresses_1_label, addresses_1.street AS addresses_1_street, addresses_1.city AS addresses_1_city, addresses_1.state AS addresses_1_state, addresses_1.pincode AS addresses_1_pincode, addresses_1.lat AS addresses_1_lat, addresses_1.lng AS addresses_1_lng, addresses_1.is_default AS addresses_1_is_default, payments_1.id AS payments_1_id, payments_1.order_id AS payments_1_order_id, payments_1.transaction_ref AS payments_1_transaction_ref, payments_1.method AS payments_1_method, payments_1.amount AS payments_1_amount, payments_1.status AS payments_1_status, payments_1.paid_at AS payments_1_paid_at, users_2.id AS users_2_id, users_2.full_name AS users_2_full_name, users_2.email AS users_2_email, users_2.phone AS users_2_phone, users_2.store_bio AS users_2_store_bio, users_2.payout_upi_id AS users_2_payout_upi_id, users_2.hashed_password AS users_2_hashed_password, users_2.role AS users_2_role, users_2.store_name AS users_2_store_name, users_2.is_active AS users_2_is_active, users_2.is_verified AS users_2_is_verified, users_2.created_at AS users_2_created_at, deliveries_1.id AS deliveries_1_id, deliveries_1.order_id AS deliveries_1_order_id, deliveries_1.rider_id AS deliveries_1_rider_id, deliveries_1.pickup_hub AS deliveries_1_pickup_hub, deliveries_1.drop_address AS deliveries_1_drop_address, deliveries_1.rider_fee AS deliveries_1_rider_fee, deliveries_1.status AS deliveries_1_status, deliveries_1.otp_verified AS deliveries_1_otp_verified, deliveries_1.assigned_at AS deliveries_1_assigned_at, deliveries_1.delivered_at AS deliveries_1_delivered_at 
+	FROM orders LEFT OUTER JOIN users AS users_1 ON users_1.id = orders.customer_id LEFT OUTER JOIN addresses AS addresses_1 ON addresses_1.id = orders.address_id LEFT OUTER JOIN payments AS payments_1 ON orders.id = payments_1.order_id LEFT OUTER JOIN deliveries AS deliveries_1 ON orders.id = deliveries_1.order_id LEFT OUTER JOIN users AS users_2 ON users_2.id = deliveries_1.rider_id 
+	WHERE orders.id = 1 AND orders.customer_id = 6 
+	 LIMIT 1 FOR UPDATE
+2026-11-16 14:21:05.459 IST [70112] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-16 14:21:05.459 IST [70112] STATEMENT:  SELECT orders.id AS orders_id, orders.order_number AS orders_order_number, orders.customer_id AS orders_customer_id, orders.address_id AS orders_address_id, orders.shipping_address AS orders_shipping_address, orders.total_amount AS orders_total_amount, orders.payment_method AS orders_payment_method, orders.status AS orders_status, orders.delivery_otp AS orders_delivery_otp, orders.rider_fee AS orders_rider_fee, orders.delivered_at AS orders_delivered_at, orders.delivery_lat AS orders_delivery_lat, orders.delivery_lng AS orders_delivery_lng, orders.created_at AS orders_created_at, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at, addresses_1.id AS addresses_1_id, addresses_1.user_id AS addresses_1_user_id, addresses_1.label AS addresses_1_label, addresses_1.street AS addresses_1_street, addresses_1.city AS addresses_1_city, addresses_1.state AS addresses_1_state, addresses_1.pincode AS addresses_1_pincode, addresses_1.lat AS addresses_1_lat, addresses_1.lng AS addresses_1_lng, addresses_1.is_default AS addresses_1_is_default, payments_1.id AS payments_1_id, payments_1.order_id AS payments_1_order_id, payments_1.transaction_ref AS payments_1_transaction_ref, payments_1.method AS payments_1_method, payments_1.amount AS payments_1_amount, payments_1.status AS payments_1_status, payments_1.paid_at AS payments_1_paid_at, users_2.id AS users_2_id, users_2.full_name AS users_2_full_name, users_2.email AS users_2_email, users_2.phone AS users_2_phone, users_2.store_bio AS users_2_store_bio, users_2.payout_upi_id AS users_2_payout_upi_id, users_2.hashed_password AS users_2_hashed_password, users_2.role AS users_2_role, users_2.store_name AS users_2_store_name, users_2.is_active AS users_2_is_active, users_2.is_verified AS users_2_is_verified, users_2.created_at AS users_2_created_at, deliveries_1.id AS deliveries_1_id, deliveries_1.order_id AS deliveries_1_order_id, deliveries_1.rider_id AS deliveries_1_rider_id, deliveries_1.pickup_hub AS deliveries_1_pickup_hub, deliveries_1.drop_address AS deliveries_1_drop_address, deliveries_1.rider_fee AS deliveries_1_rider_fee, deliveries_1.status AS deliveries_1_status, deliveries_1.otp_verified AS deliveries_1_otp_verified, deliveries_1.assigned_at AS deliveries_1_assigned_at, deliveries_1.delivered_at AS deliveries_1_delivered_at 
+	FROM orders LEFT OUTER JOIN users AS users_1 ON users_1.id = orders.customer_id LEFT OUTER JOIN addresses AS addresses_1 ON addresses_1.id = orders.address_id LEFT OUTER JOIN payments AS payments_1 ON orders.id = payments_1.order_id LEFT OUTER JOIN deliveries AS deliveries_1 ON orders.id = deliveries_1.order_id LEFT OUTER JOIN users AS users_2 ON users_2.id = deliveries_1.rider_id 
+	WHERE orders.id = 1 AND orders.customer_id = 6 
+	 LIMIT 1 FOR UPDATE
+2026-11-16 14:24:18.200 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 14:24:21.053 IST [15018] LOG:  checkpoint complete: wrote 27 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.643 s, sync=0.095 s, total=2.853 s; sync files=27, longest=0.056 s, average=0.004 s; distance=20 kB, estimate=52 kB; lsn=0/1AAD920, redo lsn=0/1AAD8E8
+2026-11-16 14:29:18.153 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 14:29:24.473 IST [15018] LOG:  checkpoint complete: wrote 54 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.399 s, sync=0.673 s, total=6.320 s; sync files=54, longest=0.181 s, average=0.013 s; distance=28 kB, estimate=49 kB; lsn=0/1AB4BB0, redo lsn=0/1AB4B78
+2026-11-16 14:34:18.568 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 14:34:19.163 IST [15018] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.231 s, sync=0.049 s, total=0.595 s; sync files=3, longest=0.037 s, average=0.017 s; distance=5 kB, estimate=45 kB; lsn=0/1AB6240, redo lsn=0/1AB6208
+2026-11-16 14:44:18.363 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 14:44:18.851 IST [15018] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.219 s, sync=0.051 s, total=0.489 s; sync files=3, longest=0.042 s, average=0.017 s; distance=4 kB, estimate=41 kB; lsn=0/1AB74F0, redo lsn=0/1AB74B8
+2026-11-16 14:49:18.951 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 14:49:25.533 IST [15018] LOG:  checkpoint complete: wrote 54 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.636 s, sync=0.081 s, total=6.582 s; sync files=54, longest=0.040 s, average=0.002 s; distance=41 kB, estimate=41 kB; lsn=0/1AC1A38, redo lsn=0/1AC19C8
+2026-11-16 14:54:18.633 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 14:54:22.523 IST [15018] LOG:  checkpoint complete: wrote 36 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.596 s, sync=0.107 s, total=3.891 s; sync files=34, longest=0.091 s, average=0.004 s; distance=65 kB, estimate=65 kB; lsn=0/1AD21A0, redo lsn=0/1AD2168
+2026-11-16 14:59:18.614 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 14:59:19.640 IST [15018] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.823 s, sync=0.095 s, total=1.027 s; sync files=8, longest=0.079 s, average=0.012 s; distance=20 kB, estimate=61 kB; lsn=0/1AD74E0, redo lsn=0/1AD74A8
+2026-11-16 15:04:18.741 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 15:04:21.110 IST [15018] LOG:  checkpoint complete: wrote 22 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.127 s, sync=0.114 s, total=2.370 s; sync files=22, longest=0.100 s, average=0.006 s; distance=25 kB, estimate=57 kB; lsn=0/1ADDBD0, redo lsn=0/1ADDB98
+2026-11-16 15:09:18.210 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 15:09:23.851 IST [15018] LOG:  checkpoint complete: wrote 54 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.351 s, sync=0.080 s, total=5.642 s; sync files=54, longest=0.041 s, average=0.002 s; distance=49 kB, estimate=56 kB; lsn=0/1AEA028, redo lsn=0/1AE9FD8
+2026-11-16 15:44:19.933 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 15:44:21.654 IST [15018] LOG:  checkpoint complete: wrote 13 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.377 s, sync=0.092 s, total=1.764 s; sync files=13, longest=0.075 s, average=0.008 s; distance=16 kB, estimate=52 kB; lsn=0/1AEE0F0, redo lsn=0/1AEE0B8
+2026-11-16 15:49:19.755 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 15:49:21.305 IST [15018] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.144 s, sync=0.092 s, total=1.551 s; sync files=11, longest=0.078 s, average=0.009 s; distance=15 kB, estimate=49 kB; lsn=0/1AF1D20, redo lsn=0/1AF1CE8
+2026-11-16 15:54:19.405 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 15:54:20.563 IST [15018] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.924 s, sync=0.127 s, total=1.158 s; sync files=10, longest=0.112 s, average=0.013 s; distance=12 kB, estimate=45 kB; lsn=0/1AF5060, redo lsn=0/1AF5028
+2026-11-16 15:59:19.663 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 15:59:24.682 IST [15018] LOG:  checkpoint complete: wrote 48 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.742 s, sync=0.081 s, total=5.019 s; sync files=48, longest=0.036 s, average=0.002 s; distance=47 kB, estimate=47 kB; lsn=0/1B00E70, redo lsn=0/1B00E38
+2026-11-16 16:59:20.888 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 16:59:23.149 IST [15018] LOG:  checkpoint complete: wrote 20 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.941 s, sync=0.131 s, total=2.262 s; sync files=18, longest=0.118 s, average=0.008 s; distance=47 kB, estimate=47 kB; lsn=0/1B0CE28, redo lsn=0/1B0CDF0
+2026-11-16 17:29:20.735 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 17:29:23.076 IST [15018] LOG:  checkpoint complete: wrote 20 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.938 s, sync=0.124 s, total=2.341 s; sync files=20, longest=0.089 s, average=0.007 s; distance=34 kB, estimate=46 kB; lsn=0/1B15928, redo lsn=0/1B158F0
+2026-11-16 17:34:20.176 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 17:34:20.485 IST [15018] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.135 s, sync=0.043 s, total=0.309 s; sync files=2, longest=0.033 s, average=0.022 s; distance=1 kB, estimate=42 kB; lsn=0/1B16070, redo lsn=0/1B16038
+2026-11-16 17:39:20.576 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 17:39:21.515 IST [15018] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.622 s, sync=0.128 s, total=0.939 s; sync files=6, longest=0.114 s, average=0.022 s; distance=29 kB, estimate=40 kB; lsn=0/1B1D7B0, redo lsn=0/1B1D778
+2026-11-16 17:44:20.616 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 17:44:20.892 IST [15018] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.120 s, sync=0.052 s, total=0.277 s; sync files=2, longest=0.039 s, average=0.026 s; distance=4 kB, estimate=37 kB; lsn=0/1B1E8B8, redo lsn=0/1B1E880
+2026-11-16 17:49:20.992 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 17:49:21.332 IST [15018] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.119 s, sync=0.090 s, total=0.340 s; sync files=2, longest=0.082 s, average=0.045 s; distance=5 kB, estimate=34 kB; lsn=0/1B1FE98, redo lsn=0/1B1FE60
+2026-11-16 17:54:20.430 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 17:54:25.439 IST [15018] LOG:  checkpoint complete: wrote 46 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.742 s, sync=0.152 s, total=5.010 s; sync files=41, longest=0.061 s, average=0.004 s; distance=208 kB, estimate=208 kB; lsn=0/1B53EE8, redo lsn=0/1B53EB0
+2026-11-16 17:59:20.539 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 17:59:22.233 IST [15018] LOG:  checkpoint complete: wrote 15 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.459 s, sync=0.119 s, total=1.694 s; sync files=14, longest=0.109 s, average=0.009 s; distance=40 kB, estimate=191 kB; lsn=0/1B5E080, redo lsn=0/1B5E048
+2026-11-16 18:04:20.332 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 18:04:25.323 IST [15018] LOG:  checkpoint complete: wrote 48 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.754 s, sync=0.063 s, total=4.991 s; sync files=48, longest=0.031 s, average=0.002 s; distance=54 kB, estimate=177 kB; lsn=0/1B6CD48, redo lsn=0/1B6B948
+2026-11-16 18:09:20.423 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 18:09:22.769 IST [15018] LOG:  checkpoint complete: wrote 22 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.130 s, sync=0.107 s, total=2.346 s; sync files=21, longest=0.097 s, average=0.006 s; distance=49 kB, estimate=164 kB; lsn=0/1B77DD8, redo lsn=0/1B77DA0
+2026-11-16 18:14:20.869 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 18:14:23.098 IST [15018] LOG:  checkpoint complete: wrote 21 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.030 s, sync=0.105 s, total=2.229 s; sync files=21, longest=0.089 s, average=0.005 s; distance=41 kB, estimate=152 kB; lsn=0/1B824E0, redo lsn=0/1B824A8
+2026-11-16 18:19:20.198 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 18:19:26.210 IST [15018] LOG:  checkpoint complete: wrote 58 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.784 s, sync=0.076 s, total=6.012 s; sync files=58, longest=0.036 s, average=0.002 s; distance=64 kB, estimate=143 kB; lsn=0/1B92558, redo lsn=0/1B92520
+2026-11-16 18:39:20.576 IST [15018] LOG:  checkpoint starting: time
+2026-11-16 18:39:21.452 IST [15018] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.136 s, sync=0.056 s, total=0.876 s; sync files=2, longest=0.048 s, average=0.028 s; distance=7 kB, estimate=130 kB; lsn=0/1B94430, redo lsn=0/1B943F8
+2026-11-16 18:56:44.892 IST [15017] LOG:  received smart shutdown request
+2026-11-16 18:56:46.787 IST [15017] LOG:  background worker "logical replication launcher" (PID 15023) exited with exit code 1
+2026-11-16 18:56:47.121 IST [15018] LOG:  shutting down
+2026-11-16 18:56:47.371 IST [15018] LOG:  checkpoint starting: shutdown immediate
+2026-11-16 21:23:58.084 IST [5] LOG:  starting PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-11-16 21:23:58.090 IST [5] LOG:  could not create IPv6 socket for address "::": Operation not permitted
+2026-11-16 21:23:58.090 IST [5] LOG:  could not create IPv4 socket for address "0.0.0.0": Operation not permitted
+2026-11-16 21:23:58.090 IST [5] WARNING:  could not create listen socket for "*"
+2026-11-16 21:23:58.090 IST [5] FATAL:  could not create any TCP/IP sockets
+2026-11-16 21:23:58.103 IST [5] LOG:  database system is shut down
+2026-11-16 21:27:47.020 IST [14432] LOG:  starting PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-11-16 21:27:47.021 IST [14432] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2026-11-16 21:27:47.021 IST [14432] LOG:  listening on IPv6 address "::", port 5433
+2026-11-16 21:27:47.219 IST [14432] LOG:  listening on Unix socket "/home/aantonio/NexCart/pgsocket/.s.PGSQL.5433"
+2026-11-16 21:27:47.352 IST [14432] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2026-11-16 21:27:47.447 IST [14435] LOG:  database system shutdown was interrupted; last known up at 2026-11-16 18:56:47 IST
+2026-11-16 21:27:49.756 IST [14435] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-11-16 21:27:49.864 IST [14435] LOG:  redo starts at 0/1B943F8
+2026-11-16 21:27:49.864 IST [14435] LOG:  invalid record length at 0/1B944E0: expected at least 24, got 0
+2026-11-16 21:27:49.864 IST [14435] LOG:  redo done at 0/1B944A8 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-11-16 21:27:49.988 IST [14433] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-11-16 21:27:50.223 IST [14433] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.035 s, sync=0.020 s, total=0.323 s; sync files=2, longest=0.010 s, average=0.010 s; distance=0 kB, estimate=0 kB; lsn=0/1B944E0, redo lsn=0/1B944E0
+2026-11-16 21:27:50.270 IST [14432] LOG:  database system is ready to accept connections
+2026-11-16 21:30:41.637 IST [15521] FATAL:  lock file "postmaster.pid" already exists
+2026-11-16 21:30:41.637 IST [15521] HINT:  Is another postmaster (PID 14432) running in data directory "/home/aantonio/NexCart/pgdata"?
+2026-11-16 21:32:49.316 IST [14433] LOG:  checkpoint starting: time
+2026-11-16 21:32:55.217 IST [14433] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.862 s, sync=0.774 s, total=5.901 s; sync files=2, longest=0.522 s, average=0.387 s; distance=2 kB, estimate=2 kB; lsn=0/1B94E10, redo lsn=0/1B94DD8
+2026-11-16 22:02:52.857 IST [14433] LOG:  checkpoint starting: time
+2026-11-16 22:03:00.848 IST [14433] LOG:  checkpoint complete: wrote 22 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.071 s, sync=1.086 s, total=10.215 s; sync files=22, longest=0.351 s, average=0.050 s; distance=109 kB, estimate=109 kB; lsn=0/1BB0550, redo lsn=0/1BB04E0
+2026-11-16 22:12:51.052 IST [14433] LOG:  checkpoint starting: time
+2026-11-16 22:12:52.594 IST [14433] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.258 s, sync=0.081 s, total=1.633 s; sync files=2, longest=0.072 s, average=0.041 s; distance=4 kB, estimate=99 kB; lsn=0/1BB16D0, redo lsn=0/1BB1698
+2026-11-16 22:20:58.599 IST [14432] LOG:  received smart shutdown request
+2026-11-16 22:20:58.603 IST [38638] FATAL:  terminating connection due to administrator command
+2026-11-16 22:20:58.603 IST [38868] FATAL:  terminating connection due to administrator command
+2026-11-16 22:20:58.609 IST [40656] FATAL:  terminating connection due to administrator command
+2026-11-16 22:20:58.609 IST [38519] FATAL:  terminating connection due to administrator command
+2026-11-16 22:21:00.250 IST [38519] LOG:  could not send data to client: Broken pipe
+2026-11-16 22:21:00.250 IST [40656] LOG:  could not send data to client: Broken pipe
+2026-11-16 22:21:00.251 IST [38638] LOG:  could not send data to client: Broken pipe
+2026-11-16 22:21:00.252 IST [38868] LOG:  could not send data to client: Broken pipe
+2026-11-16 22:20:59.165 IST [37071] FATAL:  terminating connection due to administrator command
+2026-11-16 22:21:00.727 IST [37071] LOG:  could not send data to client: Broken pipe
+2026-11-16 22:40:28.330 IST [17682] FATAL:  lock file "postmaster.pid" already exists
+2026-11-16 22:40:28.330 IST [17682] HINT:  Is another postmaster (PID 14432) running in data directory "/home/aantonio/NexCart/pgdata"?
+2026-11-16 22:44:40.429 IST [19143] FATAL:  lock file "postmaster.pid" already exists
+2026-11-16 22:44:40.429 IST [19143] HINT:  Is another postmaster (PID 14432) running in data directory "/home/aantonio/NexCart/pgdata"?
+2026-11-16 22:46:05.712 IST [20233] FATAL:  lock file "postmaster.pid" already exists
+2026-11-16 22:46:05.712 IST [20233] HINT:  Is another postmaster (PID 14432) running in data directory "/home/aantonio/NexCart/pgdata"?
+2026-11-16 22:47:56.161 IST [21077] FATAL:  lock file "postmaster.pid" already exists
+2026-11-16 22:47:56.161 IST [21077] HINT:  Is another postmaster (PID 14432) running in data directory "/home/aantonio/NexCart/pgdata"?
+2026-11-16 22:56:13.759 IST [23611] LOG:  starting PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-11-16 22:56:13.781 IST [23611] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2026-11-16 22:56:13.781 IST [23611] LOG:  listening on IPv6 address "::", port 5433
+2026-11-16 22:56:13.869 IST [23611] FATAL:  lock file "/home/aantonio/NexCart/pgsocket/.s.PGSQL.5433.lock" already exists
+2026-11-16 22:56:13.869 IST [23611] HINT:  Is another postmaster (PID 14432) using socket file "/home/aantonio/NexCart/pgsocket/.s.PGSQL.5433"?
+2026-11-16 22:56:13.874 IST [23611] LOG:  database system is shut down
+2026-11-16 23:06:30.605 IST [26937] LOG:  starting PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-11-16 23:06:30.698 IST [26937] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2026-11-16 23:06:30.698 IST [26937] LOG:  listening on IPv6 address "::", port 5433
+2026-11-16 23:06:30.877 IST [26937] LOG:  listening on Unix socket "/home/aantonio/NexCart/pgsocket/.s.PGSQL.5433"
+2026-11-16 23:06:31.062 IST [26937] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2026-11-16 23:06:31.448 IST [26949] LOG:  database system was interrupted; last known up at 2026-11-16 22:12:52 IST
+2026-11-16 23:06:36.581 IST [26949] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-11-16 23:06:36.752 IST [26949] LOG:  redo starts at 0/1BB1698
+2026-11-16 23:06:36.752 IST [26949] LOG:  invalid record length at 0/1BB1780: expected at least 24, got 0
+2026-11-16 23:06:36.752 IST [26949] LOG:  redo done at 0/1BB1748 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-11-16 23:06:37.123 IST [26947] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-11-16 23:06:37.568 IST [26947] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.146 s, sync=0.048 s, total=0.544 s; sync files=2, longest=0.038 s, average=0.024 s; distance=0 kB, estimate=0 kB; lsn=0/1BB1780, redo lsn=0/1BB1780
+2026-11-16 23:06:37.609 IST [26937] LOG:  database system is ready to accept connections
+2026-11-16 23:10:05.228 IST [26937] LOG:  received smart shutdown request
+2026-11-16 23:10:05.971 IST [26937] LOG:  background worker "logical replication launcher" (PID 26976) exited with exit code 1
+2026-11-16 23:10:06.063 IST [26947] LOG:  shutting down
+2026-11-16 23:10:07.443 IST [26947] LOG:  checkpoint starting: shutdown immediate
+2026-11-16 23:10:09.740 IST [26947] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.624 s, sync=0.001 s, total=3.677 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/1BB1830, redo lsn=0/1BB1830
+2026-11-16 23:10:09.763 IST [26937] LOG:  database system is shut down
+2026-11-17 10:18:22.922 IST [11885] LOG:  starting PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-11-17 10:18:22.958 IST [11885] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2026-11-17 10:18:22.958 IST [11885] LOG:  listening on IPv6 address "::", port 5433
+2026-11-17 10:18:23.061 IST [11885] LOG:  listening on Unix socket "/home/aantonio/NexCart/pgsocket/.s.PGSQL.5433"
+2026-11-17 10:18:23.128 IST [11885] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2026-11-17 10:18:23.173 IST [11894] LOG:  database system was shut down at 2026-11-16 23:10:09 IST
+2026-11-17 10:18:23.283 IST [11885] LOG:  database system is ready to accept connections
+2026-11-17 10:23:23.273 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 10:23:23.909 IST [11892] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.214 s, sync=0.091 s, total=0.637 s; sync files=3, longest=0.046 s, average=0.031 s; distance=5 kB, estimate=5 kB; lsn=0/1BB2DF0, redo lsn=0/1BB2DB8
+2026-11-17 10:28:24.008 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 10:28:26.527 IST [11892] LOG:  checkpoint complete: wrote 23 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.240 s, sync=0.104 s, total=2.519 s; sync files=20, longest=0.088 s, average=0.006 s; distance=22 kB, estimate=22 kB; lsn=0/1BB89B0, redo lsn=0/1BB8978
+2026-11-17 10:33:24.631 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 10:33:26.469 IST [11892] LOG:  checkpoint complete: wrote 17 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.626 s, sync=0.091 s, total=1.838 s; sync files=17, longest=0.055 s, average=0.006 s; distance=23 kB, estimate=23 kB; lsn=0/1BBE8F8, redo lsn=0/1BBE8C0
+2026-11-17 10:43:24.669 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 10:43:25.166 IST [11892] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.172 s, sync=0.038 s, total=0.497 s; sync files=2, longest=0.029 s, average=0.019 s; distance=4 kB, estimate=21 kB; lsn=0/1BBF908, redo lsn=0/1BBF8D0
+2026-11-17 10:48:24.266 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 10:48:25.277 IST [11892] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.821 s, sync=0.092 s, total=1.011 s; sync files=6, longest=0.080 s, average=0.016 s; distance=54 kB, estimate=54 kB; lsn=0/1BCD1C0, redo lsn=0/1BCD188
+2026-11-17 10:53:24.376 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 10:53:25.313 IST [11892] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.721 s, sync=0.117 s, total=0.937 s; sync files=6, longest=0.105 s, average=0.020 s; distance=36 kB, estimate=52 kB; lsn=0/1BD6280, redo lsn=0/1BD6248
+2026-11-17 10:58:24.413 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 10:58:24.737 IST [11892] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.119 s, sync=0.114 s, total=0.324 s; sync files=2, longest=0.099 s, average=0.057 s; distance=5 kB, estimate=47 kB; lsn=0/1BD7750, redo lsn=0/1BD7718
+2026-11-17 11:03:24.836 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 11:03:25.753 IST [11892] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.720 s, sync=0.091 s, total=0.918 s; sync files=7, longest=0.082 s, average=0.013 s; distance=28 kB, estimate=45 kB; lsn=0/1BDE898, redo lsn=0/1BDE860
+2026-11-17 12:08:26.017 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 12:08:27.427 IST [11892] LOG:  checkpoint complete: wrote 12 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.133 s, sync=0.116 s, total=1.410 s; sync files=12, longest=0.080 s, average=0.010 s; distance=58 kB, estimate=58 kB; lsn=0/1BED2E0, redo lsn=0/1BED2A8
+2026-11-17 12:13:26.527 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 12:13:27.291 IST [11892] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.519 s, sync=0.113 s, total=0.765 s; sync files=4, longest=0.105 s, average=0.029 s; distance=23 kB, estimate=55 kB; lsn=0/1BF3078, redo lsn=0/1BF3040
+2026-11-17 12:48:26.938 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 12:48:30.743 IST [11892] LOG:  checkpoint complete: wrote 36 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.553 s, sync=0.055 s, total=3.806 s; sync files=36, longest=0.042 s, average=0.002 s; distance=44 kB, estimate=53 kB; lsn=0/1BFE0F8, redo lsn=0/1BFE0C0
+2026-11-17 12:53:26.824 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 12:53:28.308 IST [11892] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 1 WAL file(s) added, 0 removed, 0 recycled; write=0.822 s, sync=0.115 s, total=1.484 s; sync files=8, longest=0.081 s, average=0.015 s; distance=35 kB, estimate=52 kB; lsn=0/1C070E8, redo lsn=0/1C070B0
+2026-11-17 13:03:26.508 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 13:03:29.925 IST [11892] LOG:  checkpoint complete: wrote 30 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.056 s, sync=0.117 s, total=3.417 s; sync files=28, longest=0.098 s, average=0.005 s; distance=111 kB, estimate=111 kB; lsn=0/1C22D20, redo lsn=0/1C22CE8
+2026-11-17 13:08:27.025 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 13:08:28.867 IST [11892] LOG:  checkpoint complete: wrote 16 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.532 s, sync=0.144 s, total=1.843 s; sync files=11, longest=0.129 s, average=0.014 s; distance=50 kB, estimate=105 kB; lsn=0/1C2F758, redo lsn=0/1C2F720
+2026-11-17 13:13:27.967 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 13:13:29.773 IST [11892] LOG:  checkpoint complete: wrote 15 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.444 s, sync=0.119 s, total=1.806 s; sync files=15, longest=0.108 s, average=0.008 s; distance=39 kB, estimate=98 kB; lsn=0/1C394D8, redo lsn=0/1C394A0
+2026-11-17 13:18:27.875 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 13:18:28.153 IST [11892] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.122 s, sync=0.044 s, total=0.279 s; sync files=2, longest=0.029 s, average=0.022 s; distance=4 kB, estimate=89 kB; lsn=0/1C3A668, redo lsn=0/1C3A630
+2026-11-17 14:33:28.574 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 14:33:30.609 IST [11892] LOG:  checkpoint complete: wrote 18 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.731 s, sync=0.111 s, total=2.035 s; sync files=17, longest=0.095 s, average=0.007 s; distance=43 kB, estimate=84 kB; lsn=0/1C455A0, redo lsn=0/1C45568
+2026-11-17 15:33:29.735 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 15:33:32.495 IST [11892] LOG:  checkpoint complete: wrote 23 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.372 s, sync=0.187 s, total=2.760 s; sync files=22, longest=0.088 s, average=0.009 s; distance=47 kB, estimate=80 kB; lsn=0/1C51438, redo lsn=0/1C51400
+2026-11-17 15:38:29.594 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 15:38:31.897 IST [11892] LOG:  checkpoint complete: wrote 19 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.889 s, sync=0.119 s, total=2.303 s; sync files=19, longest=0.104 s, average=0.007 s; distance=63 kB, estimate=79 kB; lsn=0/1C61168, redo lsn=0/1C61130
+2026-11-17 15:53:30.196 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 15:53:32.478 IST [11892] LOG:  checkpoint complete: wrote 15 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.793 s, sync=0.213 s, total=2.282 s; sync files=15, longest=0.100 s, average=0.015 s; distance=44 kB, estimate=75 kB; lsn=0/1C6C4D8, redo lsn=0/1C6C4A0
+2026-11-17 16:03:30.677 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 16:03:34.876 IST [11892] LOG:  checkpoint complete: wrote 39 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.875 s, sync=0.081 s, total=4.199 s; sync files=36, longest=0.061 s, average=0.003 s; distance=81 kB, estimate=81 kB; lsn=0/1C80BB0, redo lsn=0/1C80B40
+2026-11-17 16:08:30.976 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 16:08:34.588 IST [11892] LOG:  checkpoint complete: wrote 16 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.948 s, sync=0.267 s, total=3.612 s; sync files=16, longest=0.066 s, average=0.017 s; distance=7 kB, estimate=74 kB; lsn=0/1C828A0, redo lsn=0/1C82868
+2026-11-17 17:53:32.433 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 17:53:36.419 IST [11892] LOG:  checkpoint complete: wrote 35 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.536 s, sync=0.052 s, total=3.986 s; sync files=35, longest=0.033 s, average=0.002 s; distance=49 kB, estimate=71 kB; lsn=0/1C8EF30, redo lsn=0/1C8EEF8
+2026-11-17 17:58:32.519 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 17:58:36.709 IST [11892] LOG:  checkpoint complete: wrote 15 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.463 s, sync=0.225 s, total=4.190 s; sync files=15, longest=0.124 s, average=0.015 s; distance=40 kB, estimate=68 kB; lsn=0/1C990D0, redo lsn=0/1C99098
+2026-11-17 18:03:32.809 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 18:03:34.559 IST [11892] LOG:  checkpoint complete: wrote 15 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.472 s, sync=0.112 s, total=1.750 s; sync files=15, longest=0.097 s, average=0.008 s; distance=42 kB, estimate=66 kB; lsn=0/1CA3AC8, redo lsn=0/1CA3A90
+2026-11-17 18:08:32.665 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 18:08:35.093 IST [11892] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.555 s, sync=0.228 s, total=2.428 s; sync files=10, longest=0.142 s, average=0.023 s; distance=8 kB, estimate=60 kB; lsn=0/1CA5D28, redo lsn=0/1CA5CF0
+2026-11-17 18:13:32.182 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 18:13:38.607 IST [11892] LOG:  checkpoint complete: wrote 60 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.976 s, sync=0.092 s, total=6.426 s; sync files=59, longest=0.042 s, average=0.002 s; distance=80 kB, estimate=80 kB; lsn=0/1CB9DF8, redo lsn=0/1CB9DC0
+2026-11-17 18:18:32.707 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 18:18:37.801 IST [11892] LOG:  checkpoint complete: wrote 45 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.812 s, sync=0.080 s, total=5.095 s; sync files=42, longest=0.068 s, average=0.002 s; distance=105 kB, estimate=105 kB; lsn=0/1CD44E8, redo lsn=0/1CD44B0
+2026-11-17 18:23:32.901 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 18:23:35.521 IST [11892] LOG:  checkpoint complete: wrote 23 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.267 s, sync=0.102 s, total=2.620 s; sync files=22, longest=0.086 s, average=0.005 s; distance=80 kB, estimate=103 kB; lsn=0/1CE8560, redo lsn=0/1CE8528
+2026-11-17 18:28:32.621 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 18:28:36.273 IST [11892] LOG:  checkpoint complete: wrote 34 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.378 s, sync=0.050 s, total=3.652 s; sync files=34, longest=0.033 s, average=0.002 s; distance=58 kB, estimate=98 kB; lsn=0/1CF6D68, redo lsn=0/1CF6D30
+2026-11-17 18:33:32.371 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 18:33:36.341 IST [11892] LOG:  checkpoint complete: wrote 29 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.270 s, sync=0.382 s, total=3.970 s; sync files=28, longest=0.073 s, average=0.014 s; distance=62 kB, estimate=95 kB; lsn=0/1D067C0, redo lsn=0/1D06788
+2026-11-17 18:38:32.442 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 18:38:35.514 IST [11892] LOG:  checkpoint complete: wrote 15 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.501 s, sync=1.037 s, total=3.072 s; sync files=15, longest=0.143 s, average=0.070 s; distance=50 kB, estimate=90 kB; lsn=0/1D13330, redo lsn=0/1D132F8
+2026-11-17 18:43:32.614 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 18:43:34.421 IST [11892] LOG:  checkpoint complete: wrote 15 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.449 s, sync=0.086 s, total=1.807 s; sync files=15, longest=0.077 s, average=0.006 s; distance=49 kB, estimate=86 kB; lsn=0/1D1FAC0, redo lsn=0/1D1FA88
+2026-11-17 18:53:32.603 IST [11892] LOG:  checkpoint starting: time
+2026-11-17 18:53:34.984 IST [11892] LOG:  checkpoint complete: wrote 18 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.770 s, sync=0.386 s, total=2.382 s; sync files=17, longest=0.276 s, average=0.023 s; distance=57 kB, estimate=83 kB; lsn=0/1D2E298, redo lsn=0/1D2E260
+2026-11-17 18:57:29.009 IST [11885] LOG:  received smart shutdown request
+2026-11-17 18:57:31.832 IST [11885] LOG:  background worker "logical replication launcher" (PID 11909) exited with exit code 1
+2026-11-17 18:57:31.833 IST [11892] LOG:  shutting down
+2026-11-17 18:57:33.143 IST [11892] LOG:  checkpoint starting: shutdown immediate
+2026-11-17 22:12:30.934 IST [12216] LOG:  starting PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-11-17 22:12:31.126 IST [12216] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2026-11-17 22:12:31.127 IST [12216] LOG:  listening on IPv6 address "::", port 5433
+2026-11-17 22:12:31.298 IST [12216] LOG:  listening on Unix socket "/home/aantonio/NexCart/pgsocket/.s.PGSQL.5433"
+2026-11-17 22:12:31.441 IST [12216] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2026-11-17 22:12:31.875 IST [12238] LOG:  database system shutdown was interrupted; last known up at 2026-11-17 18:57:31 IST
+2026-11-17 22:12:42.476 IST [12238] LOG:  syncing data directory (fsync), elapsed time: 10.09 s, current path: ./base/16384/3257
+2026-11-17 22:12:52.395 IST [12238] LOG:  syncing data directory (fsync), elapsed time: 20.01 s, current path: ./base/16384/3541_fsm
+2026-11-17 22:13:02.403 IST [12238] LOG:  syncing data directory (fsync), elapsed time: 30.02 s, current path: ./base/1/2606_vm
+2026-11-17 22:13:12.429 IST [12238] LOG:  syncing data directory (fsync), elapsed time: 40.05 s, current path: ./base/1/2832
+2026-11-17 22:13:15.169 IST [12755] FATAL:  the database system is starting up
+2026-11-17 22:13:22.434 IST [12238] LOG:  syncing data directory (fsync), elapsed time: 50.05 s, current path: ./global/6000
+2026-11-17 22:13:26.036 IST [12238] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-11-17 22:13:27.142 IST [12238] LOG:  redo starts at 0/1D2E260
+2026-11-17 22:13:27.142 IST [12238] LOG:  invalid record length at 0/1D2E348: expected at least 24, got 0
+2026-11-17 22:13:27.142 IST [12238] LOG:  redo done at 0/1D2E310 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-11-17 22:13:28.963 IST [12236] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-11-17 22:13:32.074 IST [12236] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.481 s, sync=0.151 s, total=3.665 s; sync files=2, longest=0.080 s, average=0.076 s; distance=0 kB, estimate=0 kB; lsn=0/1D2E348, redo lsn=0/1D2E348
+2026-11-17 22:13:32.257 IST [12216] LOG:  database system is ready to accept connections
+2026-11-17 22:21:49.909 IST [12216] LOG:  received smart shutdown request
+2026-11-17 22:21:51.257 IST [12216] LOG:  background worker "logical replication launcher" (PID 12949) exited with exit code 1
+2026-11-17 22:21:51.258 IST [12236] LOG:  shutting down
+2026-11-17 22:21:52.555 IST [12236] LOG:  checkpoint starting: shutdown immediate
+2026-11-17 22:31:48.767 IST [14252] LOG:  starting PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-11-17 22:31:48.798 IST [14252] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2026-11-17 22:31:48.798 IST [14252] LOG:  listening on IPv6 address "::", port 5433
+2026-11-17 22:31:49.299 IST [14252] LOG:  listening on Unix socket "/home/aantonio/NexCart/pgsocket/.s.PGSQL.5433"
+2026-11-17 22:31:49.591 IST [14252] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2026-11-17 22:31:49.792 IST [14267] LOG:  database system shutdown was interrupted; last known up at 2026-11-17 22:21:51 IST
+2026-11-17 22:31:51.292 IST [14267] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-11-17 22:31:51.345 IST [14267] LOG:  redo starts at 0/1D2E3C0
+2026-11-17 22:31:51.345 IST [14267] LOG:  invalid record length at 0/1D2E3F8: expected at least 24, got 0
+2026-11-17 22:31:51.345 IST [14267] LOG:  redo done at 0/1D2E3C0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-11-17 22:31:51.410 IST [14265] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-11-17 22:31:51.655 IST [14265] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.120 s, sync=0.020 s, total=0.273 s; sync files=2, longest=0.010 s, average=0.010 s; distance=0 kB, estimate=0 kB; lsn=0/1D2E3F8, redo lsn=0/1D2E3F8
+2026-11-17 22:31:51.730 IST [14252] LOG:  database system is ready to accept connections
+2026-11-17 22:36:51.755 IST [14265] LOG:  checkpoint starting: time
+2026-11-17 22:36:52.307 IST [14265] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.152 s, sync=0.096 s, total=0.553 s; sync files=2, longest=0.067 s, average=0.048 s; distance=9 kB, estimate=9 kB; lsn=0/1D30888, redo lsn=0/1D30850
+2026-11-17 22:46:51.507 IST [14265] LOG:  checkpoint starting: time
+2026-11-17 22:46:52.081 IST [14265] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.119 s, sync=0.057 s, total=0.575 s; sync files=2, longest=0.032 s, average=0.029 s; distance=5 kB, estimate=8 kB; lsn=0/1D31F18, redo lsn=0/1D31EE0
+2026-11-17 23:03:47.099 IST [14252] LOG:  received smart shutdown request
+2026-11-17 23:03:47.388 IST [14252] LOG:  background worker "logical replication launcher" (PID 14310) exited with exit code 1
+2026-11-17 23:03:47.388 IST [14265] LOG:  shutting down
+2026-11-17 23:03:47.676 IST [14265] LOG:  checkpoint starting: shutdown immediate
+2026-11-17 23:03:49.750 IST [14265] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.687 s, sync=0.158 s, total=2.362 s; sync files=1, longest=0.158 s, average=0.158 s; distance=0 kB, estimate=7 kB; lsn=0/1D31FC8, redo lsn=0/1D31FC8
+2026-11-17 23:03:49.914 IST [14252] LOG:  database system is shut down
+2026-11-18 10:29:30.617 IST [10703] LOG:  starting PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-11-18 10:29:30.676 IST [10703] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2026-11-18 10:29:30.676 IST [10703] LOG:  listening on IPv6 address "::", port 5433
+2026-11-18 10:29:30.909 IST [10703] LOG:  listening on Unix socket "/home/aantonio/NexCart/pgsocket/.s.PGSQL.5433"
+2026-11-18 10:29:31.052 IST [10703] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2026-11-18 10:29:31.347 IST [10721] LOG:  database system was shut down at 2026-11-17 23:03:49 IST
+2026-11-18 10:29:31.694 IST [10703] LOG:  database system is ready to accept connections
+2026-11-18 10:34:31.403 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 10:34:32.312 IST [10719] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.614 s, sync=0.090 s, total=0.910 s; sync files=5, longest=0.072 s, average=0.018 s; distance=34 kB, estimate=34 kB; lsn=0/1D3ABB0, redo lsn=0/1D3AB78
+2026-11-18 10:39:31.412 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 10:39:32.566 IST [10719] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.920 s, sync=0.057 s, total=1.154 s; sync files=10, longest=0.046 s, average=0.006 s; distance=7 kB, estimate=32 kB; lsn=0/1D3C8F8, redo lsn=0/1D3C8C0
+2026-11-18 10:44:31.632 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 10:44:33.367 IST [10719] LOG:  checkpoint complete: wrote 15 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.477 s, sync=0.102 s, total=1.735 s; sync files=15, longest=0.083 s, average=0.007 s; distance=48 kB, estimate=48 kB; lsn=0/1D48958, redo lsn=0/1D48920
+2026-11-18 10:49:31.467 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 10:49:33.733 IST [10719] LOG:  checkpoint complete: wrote 21 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.026 s, sync=0.090 s, total=2.267 s; sync files=21, longest=0.076 s, average=0.005 s; distance=56 kB, estimate=56 kB; lsn=0/1D57038, redo lsn=0/1D56AD0
+2026-11-18 10:54:31.833 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 10:54:34.187 IST [10719] LOG:  checkpoint complete: wrote 22 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.135 s, sync=0.098 s, total=2.354 s; sync files=21, longest=0.077 s, average=0.005 s; distance=45 kB, estimate=55 kB; lsn=0/1D62098, redo lsn=0/1D62060
+2026-11-18 10:59:31.287 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 10:59:34.829 IST [10719] LOG:  checkpoint complete: wrote 34 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.343 s, sync=0.057 s, total=3.543 s; sync files=34, longest=0.040 s, average=0.002 s; distance=59 kB, estimate=59 kB; lsn=0/1D70D28, redo lsn=0/1D70CB8
+2026-11-18 11:00:36.769 IST [28381] FATAL:  lock file "postmaster.pid" already exists
+2026-11-18 11:00:36.769 IST [28381] HINT:  Is another postmaster (PID 10703) running in data directory "/home/aantonio/NexCart/pgdata"?
+2026-11-18 11:04:31.930 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 11:04:36.006 IST [10719] LOG:  checkpoint complete: wrote 23 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.593 s, sync=0.815 s, total=4.077 s; sync files=20, longest=0.234 s, average=0.041 s; distance=77 kB, estimate=77 kB; lsn=0/1D841A8, redo lsn=0/1D84170
+2026-11-18 11:34:31.500 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 11:34:33.203 IST [10719] LOG:  checkpoint complete: wrote 15 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.437 s, sync=0.103 s, total=1.687 s; sync files=15, longest=0.090 s, average=0.007 s; distance=50 kB, estimate=74 kB; lsn=0/1D90D48, redo lsn=0/1D90D10
+2026-11-18 11:39:31.304 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 11:39:34.857 IST [10719] LOG:  checkpoint complete: wrote 31 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.071 s, sync=0.164 s, total=3.554 s; sync files=28, longest=0.140 s, average=0.006 s; distance=125 kB, estimate=125 kB; lsn=0/1DB04E8, redo lsn=0/1DB04B0
+2026-11-18 11:44:31.951 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 11:44:33.096 IST [10719] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.821 s, sync=0.099 s, total=1.145 s; sync files=8, longest=0.081 s, average=0.013 s; distance=11 kB, estimate=114 kB; lsn=0/1DB33E0, redo lsn=0/1DB33A8
+2026-11-18 11:49:31.196 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 11:49:42.658 IST [10719] LOG:  checkpoint complete: wrote 109 buffers (0.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=11.035 s, sync=0.148 s, total=11.463 s; sync files=104, longest=0.098 s, average=0.002 s; distance=345 kB, estimate=345 kB; lsn=0/1E098D8, redo lsn=0/1E098A0
+2026-11-18 11:54:31.757 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 11:54:32.905 IST [10719] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.923 s, sync=0.082 s, total=1.148 s; sync files=10, longest=0.070 s, average=0.009 s; distance=14 kB, estimate=312 kB; lsn=0/1E0D218, redo lsn=0/1E0D1E0
+2026-11-18 11:59:32.006 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 11:59:33.730 IST [10719] LOG:  checkpoint complete: wrote 15 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.426 s, sync=0.156 s, total=1.724 s; sync files=15, longest=0.142 s, average=0.011 s; distance=66 kB, estimate=287 kB; lsn=0/1E1DC30, redo lsn=0/1E1DBF8
+2026-11-18 12:04:32.805 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 12:04:34.362 IST [10719] LOG:  checkpoint complete: wrote 14 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.333 s, sync=0.111 s, total=1.558 s; sync files=11, longest=0.102 s, average=0.011 s; distance=43 kB, estimate=263 kB; lsn=0/1E288C8, redo lsn=0/1E28890
+2026-11-18 12:19:32.595 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 12:19:34.861 IST [10719] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.357 s, sync=0.748 s, total=2.266 s; sync files=3, longest=0.586 s, average=0.250 s; distance=6 kB, estimate=237 kB; lsn=0/1E2A0F8, redo lsn=0/1E2A0C0
+2026-11-18 12:24:32.980 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 12:24:39.973 IST [10719] LOG:  checkpoint complete: wrote 64 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.404 s, sync=0.419 s, total=6.994 s; sync files=58, longest=0.070 s, average=0.008 s; distance=83 kB, estimate=222 kB; lsn=0/1E3EFA0, redo lsn=0/1E3EF68
+2026-11-18 12:29:33.073 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 12:29:34.253 IST [10719] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.847 s, sync=0.079 s, total=1.181 s; sync files=9, longest=0.063 s, average=0.009 s; distance=9 kB, estimate=200 kB; lsn=0/1E415C0, redo lsn=0/1E41588
+2026-11-18 12:39:33.453 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 12:39:34.807 IST [10719] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.848 s, sync=0.253 s, total=1.354 s; sync files=8, longest=0.128 s, average=0.032 s; distance=10 kB, estimate=181 kB; lsn=0/1E43FE0, redo lsn=0/1E43FA8
+2026-11-18 12:44:33.885 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 12:44:35.947 IST [10719] LOG:  checkpoint complete: wrote 13 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.311 s, sync=0.253 s, total=2.063 s; sync files=13, longest=0.044 s, average=0.020 s; distance=40 kB, estimate=167 kB; lsn=0/1E4E168, redo lsn=0/1E4E130
+2026-11-18 13:04:34.366 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 13:04:35.017 IST [10719] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.243 s, sync=0.114 s, total=0.652 s; sync files=2, longest=0.084 s, average=0.057 s; distance=4 kB, estimate=151 kB; lsn=0/1E4F170, redo lsn=0/1E4F138
+2026-11-18 13:09:34.117 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 13:09:35.644 IST [10719] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.835 s, sync=0.065 s, total=1.528 s; sync files=5, longest=0.065 s, average=0.013 s; distance=8 kB, estimate=136 kB; lsn=0/1E51238, redo lsn=0/1E51200
+2026-11-18 14:29:36.000 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 14:29:38.465 IST [10719] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.360 s, sync=0.387 s, total=2.466 s; sync files=3, longest=0.284 s, average=0.129 s; distance=20 kB, estimate=125 kB; lsn=0/1E56540, redo lsn=0/1E56508
+2026-11-18 14:39:35.666 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 14:39:37.702 IST [10719] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.849 s, sync=0.088 s, total=2.037 s; sync files=4, longest=0.078 s, average=0.022 s; distance=36 kB, estimate=116 kB; lsn=0/1E5F6A8, redo lsn=0/1E5F670
+2026-11-18 14:44:35.802 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 14:44:43.427 IST [10719] LOG:  checkpoint complete: wrote 55 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.083 s, sync=1.287 s, total=7.625 s; sync files=54, longest=0.599 s, average=0.024 s; distance=85 kB, estimate=113 kB; lsn=0/1E74B28, redo lsn=0/1E74AF0
+2026-11-18 14:49:35.527 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 14:49:37.923 IST [10719] LOG:  checkpoint complete: wrote 20 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.965 s, sync=0.163 s, total=2.397 s; sync files=20, longest=0.123 s, average=0.009 s; distance=56 kB, estimate=107 kB; lsn=0/1E82E50, redo lsn=0/1E82E18
+2026-11-18 14:54:36.025 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 14:54:38.377 IST [10719] LOG:  checkpoint complete: wrote 18 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.771 s, sync=0.111 s, total=2.353 s; sync files=18, longest=0.099 s, average=0.007 s; distance=57 kB, estimate=102 kB; lsn=0/1E914E8, redo lsn=0/1E914B0
+2026-11-18 14:59:36.477 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 14:59:50.828 IST [10719] LOG:  checkpoint complete: wrote 42 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.377 s, sync=5.238 s, total=14.352 s; sync files=36, longest=1.077 s, average=0.146 s; distance=139 kB, estimate=139 kB; lsn=0/1EB4298, redo lsn=0/1EB4228
+2026-11-18 15:04:36.352 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 15:04:42.130 IST [10719] LOG:  checkpoint complete: wrote 54 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.429 s, sync=0.105 s, total=5.779 s; sync files=50, longest=0.059 s, average=0.003 s; distance=104 kB, estimate=135 kB; lsn=0/1ECE568, redo lsn=0/1ECE530
+2026-11-18 15:09:36.204 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 15:09:45.698 IST [10719] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.675 s, sync=0.847 s, total=9.494 s; sync files=2, longest=0.628 s, average=0.424 s; distance=6 kB, estimate=122 kB; lsn=0/1ED0028, redo lsn=0/1ECFFD8
+2026-11-18 15:11:45.162 IST [140071] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:11:45.162 IST [140071] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:11:45.554 IST [140079] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:11:45.554 IST [140079] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:11:45.619 IST [140079] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:11:45.619 IST [140079] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:11:45.682 IST [140080] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:11:45.682 IST [140080] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:11:45.699 IST [140072] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:11:45.699 IST [140072] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:11:45.728 IST [140079] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:11:45.728 IST [140079] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:11:45.992 IST [140080] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:11:45.992 IST [140080] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:11:45.994 IST [140072] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:11:45.994 IST [140072] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:11:46.008 IST [140079] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:11:46.008 IST [140079] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:11:46.028 IST [140071] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:11:46.028 IST [140071] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:11:46.069 IST [140080] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:11:46.069 IST [140080] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:11:46.117 IST [140071] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:11:46.117 IST [140071] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:11:46.207 IST [140071] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:11:46.207 IST [140071] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:11:46.494 IST [140105] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:11:46.494 IST [140105] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:11:46.519 IST [140079] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:11:46.519 IST [140079] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:11:46.670 IST [140079] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:11:46.670 IST [140079] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:13:37.198 IST [140408] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:13:37.198 IST [140408] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 12 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:13:39.193 IST [141313] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:13:39.193 IST [141313] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 12 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:13:40.676 IST [140408] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:13:40.676 IST [140408] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 12 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:13:44.344 IST [140676] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:13:44.344 IST [140676] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 12 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:13:46.654 IST [141193] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:13:46.654 IST [141193] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 12 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:13:50.488 IST [141491] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:13:50.488 IST [141491] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 12 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:13:58.455 IST [141363] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:13:58.455 IST [141363] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 12 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:14:21.276 IST [140676] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:14:21.276 IST [140676] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 12 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:14:36.684 IST [140676] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:14:36.684 IST [140676] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 12 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:14:36.798 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 15:14:37.700 IST [10719] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.565 s, sync=0.087 s, total=0.902 s; sync files=4, longest=0.071 s, average=0.022 s; distance=12 kB, estimate=111 kB; lsn=0/1ED3020, redo lsn=0/1ED2FE8
+2026-11-18 15:15:54.461 IST [141363] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:15:54.461 IST [141363] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 12 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:16:51.249 IST [141636] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:16:51.249 IST [141636] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 12 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:19:03.809 IST [144170] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:19:03.809 IST [144170] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 12 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:19:08.860 IST [144038] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:19:08.860 IST [144038] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 12 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:19:21.221 IST [143986] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:19:21.221 IST [143986] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 12 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:19:36.800 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 15:19:38.287 IST [10719] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.293 s, sync=0.057 s, total=1.487 s; sync files=2, longest=0.049 s, average=0.029 s; distance=8 kB, estimate=101 kB; lsn=0/1ED5140, redo lsn=0/1ED5108
+2026-11-18 15:21:07.010 IST [144705] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:21:07.010 IST [144705] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 12 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:21:16.050 IST [144120] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:21:16.050 IST [144120] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 13 AND vendor_orders.vendor_id = 12 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:23:16.188 IST [145567] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:23:16.188 IST [145567] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 14 AND vendor_orders.vendor_id = 12 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:23:21.030 IST [146608] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:23:21.030 IST [146608] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 14 AND vendor_orders.vendor_id = 12 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:24:36.387 IST [10719] LOG:  checkpoint starting: time
+2026-11-18 15:24:43.481 IST [10719] LOG:  checkpoint complete: wrote 61 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.215 s, sync=0.388 s, total=7.095 s; sync files=60, longest=0.275 s, average=0.007 s; distance=93 kB, estimate=100 kB; lsn=0/1EEC850, redo lsn=0/1EEC818
+2026-11-18 15:26:41.689 IST [147385] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:26:41.689 IST [147385] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 14 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:26:46.078 IST [148414] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:26:46.078 IST [148414] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 14 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+                                                                                                                                                                                                                                                                                                                                                                       2026-11-18 15:44:24.104 IST [19242] LOG:  starting PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-11-18 15:44:24.225 IST [19242] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2026-11-18 15:44:24.225 IST [19242] LOG:  listening on IPv6 address "::", port 5433
+2026-11-18 15:44:24.514 IST [19242] LOG:  listening on Unix socket "/home/aantonio/NexCart/pgsocket/.s.PGSQL.5433"
+2026-11-18 15:44:24.714 IST [19242] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2026-11-18 15:44:24.984 IST [19277] LOG:  database system was interrupted; last known up at 2026-11-18 15:29:48 IST
+2026-11-18 15:44:35.313 IST [19277] LOG:  syncing data directory (fsync), elapsed time: 10.03 s, current path: ./base/16384/2602
+2026-11-18 15:44:42.249 IST [19277] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-11-18 15:44:42.531 IST [19277] LOG:  redo starts at 0/1EF1EF8
+2026-11-18 15:44:42.531 IST [19277] LOG:  invalid record length at 0/1EF1FE0: expected at least 24, got 0
+2026-11-18 15:44:42.531 IST [19277] LOG:  redo done at 0/1EF1FA8 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-11-18 15:44:42.686 IST [19275] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-11-18 15:44:43.346 IST [19275] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.177 s, sync=0.114 s, total=0.728 s; sync files=2, longest=0.060 s, average=0.057 s; distance=0 kB, estimate=0 kB; lsn=0/1EF1FE0, redo lsn=0/1EF1FE0
+2026-11-18 15:44:43.429 IST [19242] LOG:  database system is ready to accept connections
+2026-11-18 15:46:55.833 IST [19788] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:46:55.833 IST [19788] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 14 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:47:40.371 IST [20018] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:47:40.371 IST [20018] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 14 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:47:45.321 IST [20019] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:47:45.321 IST [20019] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 14 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:48:30.534 IST [22215] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:48:30.534 IST [22215] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 14 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:48:41.594 IST [22216] ERROR:  FOR UPDATE cannot be applied to the nullable side of an outer join
+2026-11-18 15:48:41.594 IST [22216] STATEMENT:  SELECT vendor_orders.id AS vendor_orders_id, vendor_orders.order_id AS vendor_orders_order_id, vendor_orders.vendor_id AS vendor_orders_vendor_id, vendor_orders.subtotal AS vendor_orders_subtotal, vendor_orders.commission_amount AS vendor_orders_commission_amount, vendor_orders.payout_status AS vendor_orders_payout_status, vendor_orders.status AS vendor_orders_status, users_1.id AS users_1_id, users_1.full_name AS users_1_full_name, users_1.email AS users_1_email, users_1.phone AS users_1_phone, users_1.store_bio AS users_1_store_bio, users_1.payout_upi_id AS users_1_payout_upi_id, users_1.hashed_password AS users_1_hashed_password, users_1.role AS users_1_role, users_1.store_name AS users_1_store_name, users_1.is_active AS users_1_is_active, users_1.is_verified AS users_1_is_verified, users_1.created_at AS users_1_created_at 
+	FROM vendor_orders LEFT OUTER JOIN users AS users_1 ON users_1.id = vendor_orders.vendor_id 
+	WHERE vendor_orders.order_id = 14 AND vendor_orders.vendor_id = 5 
+	 LIMIT 1 FOR UPDATE
+2026-11-18 15:49:42.445 IST [19275] LOG:  checkpoint starting: time
+2026-11-18 15:49:42.948 IST [19275] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.319 s, sync=0.080 s, total=0.503 s; sync files=3, longest=0.065 s, average=0.027 s; distance=6 kB, estimate=6 kB; lsn=0/1EF3A58, redo lsn=0/1EF3A20
+2026-11-18 15:54:43.047 IST [19275] LOG:  checkpoint starting: time
+2026-11-18 15:54:49.351 IST [19275] LOG:  checkpoint complete: wrote 61 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.062 s, sync=0.122 s, total=6.305 s; sync files=60, longest=0.085 s, average=0.003 s; distance=107 kB, estimate=107 kB; lsn=0/1F0E910, redo lsn=0/1F0E8D8
+2026-11-18 15:59:43.452 IST [19275] LOG:  checkpoint starting: time
+2026-11-18 15:59:50.332 IST [19275] LOG:  checkpoint complete: wrote 67 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.666 s, sync=0.091 s, total=6.881 s; sync files=63, longest=0.030 s, average=0.002 s; distance=147 kB, estimate=147 kB; lsn=0/1F338E8, redo lsn=0/1F338B0
+2026-11-18 16:04:43.435 IST [19275] LOG:  checkpoint starting: time
+2026-11-18 16:04:49.680 IST [19275] LOG:  checkpoint complete: wrote 60 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.018 s, sync=0.094 s, total=6.245 s; sync files=57, longest=0.074 s, average=0.002 s; distance=121 kB, estimate=145 kB; lsn=0/1F51F18, redo lsn=0/1F51EE0
+2026-11-18 16:09:43.780 IST [19275] LOG:  checkpoint starting: time
+2026-11-18 16:09:45.741 IST [19275] LOG:  checkpoint complete: wrote 18 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.725 s, sync=0.097 s, total=1.962 s; sync files=18, longest=0.076 s, average=0.006 s; distance=59 kB, estimate=136 kB; lsn=0/1F60CB0, redo lsn=0/1F60C78
+2026-11-18 16:29:44.116 IST [19275] LOG:  checkpoint starting: time
+2026-11-18 16:29:50.686 IST [19275] LOG:  checkpoint complete: wrote 61 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.200 s, sync=0.182 s, total=6.571 s; sync files=58, longest=0.134 s, average=0.004 s; distance=146 kB, estimate=146 kB; lsn=0/1F85808, redo lsn=0/1F857D0
+2026-11-18 16:34:44.787 IST [19275] LOG:  checkpoint starting: time
+2026-11-18 16:34:50.363 IST [19275] LOG:  checkpoint complete: wrote 53 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.325 s, sync=0.095 s, total=5.577 s; sync files=53, longest=0.051 s, average=0.002 s; distance=104 kB, estimate=142 kB; lsn=0/1F9FB40, redo lsn=0/1F9FB08
+2026-11-18 16:39:44.462 IST [19275] LOG:  checkpoint starting: time
+2026-11-18 16:39:46.331 IST [19275] LOG:  checkpoint complete: wrote 17 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.625 s, sync=0.089 s, total=1.869 s; sync files=17, longest=0.076 s, average=0.006 s; distance=71 kB, estimate=135 kB; lsn=0/1FB17A8, redo lsn=0/1FB1770
+2026-11-18 16:44:44.430 IST [19275] LOG:  checkpoint starting: time
+2026-11-18 16:44:46.608 IST [19275] LOG:  checkpoint complete: wrote 20 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.925 s, sync=0.124 s, total=2.178 s; sync files=19, longest=0.110 s, average=0.007 s; distance=74 kB, estimate=129 kB; lsn=0/1FC41E0, redo lsn=0/1FC41A8
+2026-11-18 16:49:44.707 IST [19275] LOG:  checkpoint starting: time
+2026-11-18 16:49:46.574 IST [19275] LOG:  checkpoint complete: wrote 17 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.625 s, sync=0.120 s, total=1.867 s; sync files=15, longest=0.102 s, average=0.008 s; distance=70 kB, estimate=123 kB; lsn=0/1FD5BA0, redo lsn=0/1FD5B68
+2026-11-18 16:54:44.673 IST [19275] LOG:  checkpoint starting: time
+2026-11-18 16:54:51.976 IST [19275] LOG:  checkpoint complete: wrote 70 buffers (0.4%); 0 WAL file(s) added, 0 removed, 1 recycled; write=6.988 s, sync=0.142 s, total=7.303 s; sync files=59, longest=0.069 s, average=0.003 s; distance=184 kB, estimate=184 kB; lsn=0/200F400, redo lsn=0/2003E70
+2026-11-18 17:09:45.260 IST [19275] LOG:  checkpoint starting: time
+2026-11-18 17:09:51.700 IST [19275] LOG:  checkpoint complete: wrote 63 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.245 s, sync=0.092 s, total=6.441 s; sync files=59, longest=0.052 s, average=0.002 s; distance=154 kB, estimate=181 kB; lsn=0/202A848, redo lsn=0/202A810
+2026-11-18 17:14:45.799 IST [19275] LOG:  checkpoint starting: time
+2026-11-18 17:14:47.525 IST [19275] LOG:  checkpoint complete: wrote 16 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.524 s, sync=0.088 s, total=1.726 s; sync files=11, longest=0.078 s, average=0.008 s; distance=20 kB, estimate=165 kB; lsn=0/202F938, redo lsn=0/202F900
+2026-11-18 17:19:45.624 IST [19275] LOG:  checkpoint starting: time
+2026-11-18 17:19:48.212 IST [19275] LOG:  checkpoint complete: wrote 24 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.330 s, sync=0.156 s, total=2.588 s; sync files=10, longest=0.140 s, average=0.016 s; distance=132 kB, estimate=162 kB; lsn=0/2050D08, redo lsn=0/2050CD0
+2026-11-18 17:34:45.479 IST [19275] LOG:  checkpoint starting: time
+2026-11-18 17:34:53.331 IST [19275] LOG:  checkpoint complete: wrote 75 buffers (0.5%); 0 WAL file(s) added, 0 removed, 0 recycled; write=7.604 s, sync=0.100 s, total=7.852 s; sync files=67, longest=0.062 s, average=0.002 s; distance=188 kB, estimate=188 kB; lsn=0/207FDB8, redo lsn=0/207FD80
+2026-11-18 18:57:12.265 IST [102261] FATAL:  terminating connection due to administrator command
+2026-11-18 18:57:12.265 IST [100415] FATAL:  terminating connection due to administrator command
+2026-11-18 18:57:12.268 IST [19242] LOG:  received smart shutdown request
+2026-11-18 18:57:12.270 IST [101798] FATAL:  terminating connection due to administrator command
+2026-11-18 18:57:12.270 IST [93924] FATAL:  terminating connection due to administrator command
+2026-11-18 18:57:12.270 IST [101451] FATAL:  terminating connection due to administrator command
+2026-11-18 18:57:15.149 IST [19242] LOG:  background worker "logical replication launcher" (PID 19483) exited with exit code 1
+2026-11-18 18:57:15.150 IST [19275] LOG:  shutting down
+2026-11-19 10:19:14.550 IST [10371] LOG:  starting PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-11-19 10:19:14.612 IST [10371] LOG:  listening on IPv4 address "0.0.0.0", port 5433
+2026-11-19 10:19:14.612 IST [10371] LOG:  listening on IPv6 address "::", port 5433
+2026-11-19 10:19:14.903 IST [10371] LOG:  listening on Unix socket "/home/aantonio/NexCart/pgsocket/.s.PGSQL.5433"
+2026-11-19 10:19:15.221 IST [10371] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2026-11-19 10:19:15.656 IST [10386] LOG:  database system shutdown was interrupted; last known up at 2026-11-18 18:57:15 IST
+2026-11-19 10:19:16.368 IST [10386] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-11-19 10:19:16.551 IST [10386] LOG:  redo starts at 0/207FD80
+2026-11-19 10:19:16.551 IST [10386] LOG:  invalid record length at 0/207FE68: expected at least 24, got 0
+2026-11-19 10:19:16.551 IST [10386] LOG:  redo done at 0/207FE30 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-11-19 10:19:16.706 IST [10384] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-11-19 10:19:17.149 IST [10384] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.136 s, sync=0.081 s, total=0.503 s; sync files=2, longest=0.043 s, average=0.041 s; distance=0 kB, estimate=0 kB; lsn=0/207FE68, redo lsn=0/207FE68
+2026-11-19 10:19:17.248 IST [10371] LOG:  database system is ready to accept connections
+2026-11-19 10:24:16.251 IST [10384] LOG:  checkpoint starting: time
+2026-11-19 10:24:18.022 IST [10384] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.981 s, sync=0.277 s, total=1.771 s; sync files=7, longest=0.106 s, average=0.040 s; distance=21 kB, estimate=21 kB; lsn=0/20855E0, redo lsn=0/20855A8
